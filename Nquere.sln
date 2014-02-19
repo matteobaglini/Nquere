@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nquere", "Nquere\Nquere.csproj", "{2380E6C4-4228-465A-BDB1-4EBD8194940B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nquere.Tests", "Nquere.Tests\Nquere.Tests.csproj", "{2EEE758E-1059-43FC-A4C5-D4F21A5E9A45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{893325AB-A3B1-47B9-BFB0-FC65FC1A43BF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76A54B8F-9C0F-4E6C-B587-77DFDF2FDE30}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		license.txt = license.txt
+		Nquere.nuspec = Nquere.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2380E6C4-4228-465A-BDB1-4EBD8194940B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2380E6C4-4228-465A-BDB1-4EBD8194940B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2380E6C4-4228-465A-BDB1-4EBD8194940B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2380E6C4-4228-465A-BDB1-4EBD8194940B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEE758E-1059-43FC-A4C5-D4F21A5E9A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEE758E-1059-43FC-A4C5-D4F21A5E9A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEE758E-1059-43FC-A4C5-D4F21A5E9A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEE758E-1059-43FC-A4C5-D4F21A5E9A45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
